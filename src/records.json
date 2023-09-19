@@ -1,0 +1,30 @@
+ [
+    {
+        "id": 1,
+        "name": "Chicago Pizza",
+        "image": "c-pizza.jpg",
+        "desc": "The Pan in which",
+        "price": "$9"
+    },
+    {
+        "id": 2,
+        "name": "Neopolitan Pizza",
+        "image": "c-pizza2.jpg",
+        "desc": "The Style of pizza",
+        "price": "$15"
+    },
+    {
+        "id": 3,
+        "name": "New York Pizza",
+        "image": "c-pizza3.jpg",
+        "desc": "New York Pizza",
+        "price": "$10"
+    },
+    {
+        "id": 4,
+        "name": "Sicilian Pizza",
+        "image": "c-pizza4.jpg",
+        "desc": "Sicilian Pizza is prepared",
+        "price": "$12"
+    }
+]
