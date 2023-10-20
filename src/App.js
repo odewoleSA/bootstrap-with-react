@@ -12,7 +12,7 @@ function App() {
         <Router>
           <Navbar_2 />
           <Routes>
-            <Route path="/pizzaorder_app" exact element={<Home />} />
+            <Route path="/pizzaordering" exact element={<Home />} />
           </Routes>
           <Footer />
         </Router>
