@@ -1,22 +1,22 @@
-import React, { useState } from 'react'; 
-import './App.css';
-import Navbar from './Components/Navbar';
+import React from 'react'; 
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import './App.css';
+import Navbar_2 from './Components/Navbar_2';
 import Home from './Components/Pages/Home';
+import Footer from './Components/Footer';
 
 function App() {
 
   return (
       <div className="container">
         <Router>
-        <Navbar />
-        <Routes>
-          <Route path="/index" exact element={<Home />} />
-        </Routes>
-        {/* <Footer /> */}
-      </Router>
+          <Navbar_2 />
+          <Routes>
+            <Route path="/pizzaorder_app" exact element={<Home />} />
+          </Routes>
+          <Footer />
+        </Router>
       </div>
-      
   );
 }
 

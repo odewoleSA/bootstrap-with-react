@@ -1,5 +1,6 @@
 import React,{ useState } from 'react'; 
 import Confirmation from './Confirmation';
+import './Slider_Img.css';
 
 function PizzaCard(pizza) {
   const [ordered, setOrdered] = useState(false);
@@ -13,8 +14,8 @@ function PizzaCard(pizza) {
   };
 
   return (
-    <div className="col-md-3 mb-5" key={`${pizza.id}`}>
-      <div className="card" style={{width:"300px"}}>
+    <div className="col-md-3 mb-5" key={`${pizza.id}`} >
+      <div className="card" id="card-box">
           <img className="card-img-top" src={pizza.image} style={{width:"auto",height:"250px"}} alt="Card image" />
           <div className="card-body">
               <h4 className="card-title">
